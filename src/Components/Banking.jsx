@@ -4,7 +4,7 @@ import { Fade } from 'react-awesome-reveal';
 
 export default function Banking() {
   return (
-    <Fade>
+    
     <div className='w-full flex flex-col md:flex-row font-title justify-around z-20 ml-5 mt-16 mb-20'>
 
       <div className='w-full md:w-1/3 bg-white rounded-xl h-auto relative p-8 flex flex-col'>
@@ -26,10 +26,10 @@ export default function Banking() {
  
       <div className='w-full md:w-2/3 bg-white mx-0 md:mx-10 flex flex-col justify-around rounded-xl mt-8 md:mt-0'>
         <div className='flex flex-col md:flex-row justify-around font-normal'>
-          <button className='bg-orange-600 text-white border-slate-300 px-3 py-1 rounded-3xl text-xl mb-4 md:mb-0'>Benefits</button>
-          <button className='bg-slate-200 border-slate-300 px-3 py-1 rounded-3xl text-xl mb-4 md:mb-0'>Invoice</button>
-          <button className='bg-slate-200 border-slate-300 px-3 py-1 rounded-3xl text-xl mb-4 md:mb-0'>Partner Perks</button>
-          <button className='bg-slate-200 border-slate-300 px-3 py-1 rounded-3xl text-xl'>Nova Boost</button>
+          <button className='bg-orange-600 text-white border-slate-300 px-3 py-1 rounded-3xl text-xl mb-4 md:mb-0 hover:bg-slate-200  hover:text-black'>Benefits</button>
+          <button className='bg-slate-200 border-slate-300 px-3 py-1 rounded-3xl text-xl mb-4 md:mb-0 hover:bg-orange-600  hover:text-white'>Invoice</button>
+          <button className='bg-slate-200 border-slate-300 px-3 py-1 rounded-3xl text-xl mb-4 md:mb-0 hover:bg-orange-600  hover:text-white'>Partner Perks</button>
+          <button className='bg-slate-200 border-slate-300 px-3 py-1 rounded-3xl text-xl  hover:bg-orange-600  hover:text-white'>Nova Boost</button>
         </div>
 
         <div className='relative flex flex-col justify-around'>
@@ -57,6 +57,6 @@ export default function Banking() {
         </div>
       </div>
     </div>
-    </Fade>
+    
   );
 }
